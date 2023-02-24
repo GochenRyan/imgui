@@ -1,5 +1,6 @@
 target("ImGui")
     set_kind("static")
+    -- set_targetdir("$(projectdir)/libs/ImGui")
     add_headerfiles("*.h")
     add_files("*.cpp")
     set_group("Dependencies")
