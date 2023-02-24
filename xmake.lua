@@ -1,0 +1,5 @@
+target("ImGui")
+    set_kind("static")
+    add_headerfiles("*.h")
+    add_files("*.cpp")
+    set_group("Dependencies")
