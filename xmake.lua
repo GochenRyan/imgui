@@ -20,13 +20,15 @@ target("libImGui")
         "*.h",
         "misc/freetype/*.h",
         "backends/imgui_impl_glfw.h",
-        "backends/imgui_impl_opengl3.h"
+        "backends/imgui_impl_opengl3.h",
+        "misc/cpp/*.h"
     )
     add_files(
         "*.cpp",
         "misc/freetype/*.cpp",
         "backends/imgui_impl_glfw.cpp",
-        "backends/imgui_impl_opengl3.cpp"
+        "backends/imgui_impl_opengl3.cpp",
+        "misc/cpp/*.cpp"
     )
 
     add_linkdirs("$(projectdir)/lib/")
