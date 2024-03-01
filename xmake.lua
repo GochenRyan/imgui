@@ -32,3 +32,5 @@ target("libImGui")
     )
 
     add_linkdirs("$(projectdir)/lib/")
+
+    set_group("Vendor")
